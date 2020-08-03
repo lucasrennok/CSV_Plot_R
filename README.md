@@ -1,1 +1,2 @@
-# csv_R
+# R
+Studying R
