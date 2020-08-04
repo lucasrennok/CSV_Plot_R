@@ -1,4 +1,3 @@
-#       Author: lucasrennok
 
 #Packages
 install.packages("ggplot2", dependencies=TRUE)
@@ -13,10 +12,13 @@ library(tidyr)
 library(tidyverse)
 
 # Read in csv files
-df <- read.csv("./ja.csv", header=T, sep=",")
-df %>% select(1:5)
+df <- read.csv("./csv_file_name_here.csv", header=T, sep=",")
 
+# Select the first five columns
+# df %>% select(1:5)
+
+# Plot
 plot(df)
 
-# Inspect the result
+# Inspect the result (print the data frame)
 print(df)
